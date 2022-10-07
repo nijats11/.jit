@@ -1,0 +1,6 @@
+aws:
+- account_id: '123456789012'
+  account_name: test"><h1>aaa</h1> ${7*7}${{7*7}}
+  regions:
+  - us-east-1
+  type: account
