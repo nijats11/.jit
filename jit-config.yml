@@ -1,3 +1,10 @@
+applications:
+- api_domain: nijat.space
+  application_name: test"><h1>aaa</h1>
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://nijat.space/x.svg
+  type: api
 aws:
 - account_id: '123456789012'
   account_name: test"><h1>aaa</h1> ${7*7}${{7*7}}
