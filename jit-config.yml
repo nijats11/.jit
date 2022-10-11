@@ -5,6 +5,11 @@ applications:
   exclude_paths: []
   target_url: https://nijat.space/x.svg
   type: api
+- application_name: nijat"><h1>aaa</h1>
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://nijat.space
+  type: web
 aws:
 - account_id: '123456789012'
   account_name: test"><h1>aaa</h1> ${7*7}${{7*7}}
