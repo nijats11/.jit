@@ -58,7 +58,7 @@ jobs:
         docker_user: jit-bot
         docker_password: ${{fromJSON(github.event.inputs.client_payload).payload.container_registry_token}}
         security_control: ghcr.io/jitsecurity-controls/control-trivy-alpine:latest
-        security_control_args: --quiet conf --severity HIGH,CRITICAL -f json /code
+        security_control_args: --quiet config --severity HIGH,CRITICAL -f json --ignorefile /opt/.trivyignore /code
         
         dispatch_type: workflow
 
